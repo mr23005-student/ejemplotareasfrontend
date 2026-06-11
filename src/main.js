@@ -6,7 +6,7 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 
 //url del backend recuerda quitar cualquier pleca del final / quitarla
-axios.defaults.baseURL= process.env.BACKEND || "https://ejemplotareasbackendexpress-t466.onrender.com"
+axios.defaults.baseURL= process.env.BACKEND || "http://20.70.139.137"
 //axios.defaults.baseURL= process.env.BACKEND || "http://backend.io"
 //axios.defaults.baseURL= process.env.BACKEND || "http://alexandercalderon.online"
 
